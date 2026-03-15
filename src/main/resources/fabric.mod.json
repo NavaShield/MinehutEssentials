@@ -7,7 +7,7 @@
   "authors": [],
   "contact": {},
   "license": "All-Rights-Reserved",
-  "icon": "assets/minehutessentials/icon.png",
+  "icon": "icon.png",
   "environment": "client",
   "entrypoints": {
     "fabric-datagen": [
@@ -15,9 +15,6 @@
     ],
     "client": [
       "github.navashield.client.minehutessentialsClient"
-    ],
-    "main": [
-      "github.navashield.minehutessentials"
     ]
   },
   "mixins": [

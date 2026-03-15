@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "minehutessentials",
+  "version": "${version}",
+  "name": "MinehutEssentials",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/minehutessentials/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "github.navashield.client.minehutessentialsDataGenerator"
+    ],
+    "client": [
+      "github.navashield.client.minehutessentialsClient"
+    ],
+    "main": [
+      "github.navashield.minehutessentials"
+    ]
+  },
+  "mixins": [
+    "minehutessentials.mixins.json",
+    {
+      "config": "minehutessentials.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

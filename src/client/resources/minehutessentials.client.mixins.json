@@ -4,6 +4,7 @@
   "package": "github.navashield.mixin.client",
   "compatibilityLevel": "JAVA_21",
   "client": [
+    "BossBarHudMixin"
   ],
   "injectors": {
     "defaultRequire": 1

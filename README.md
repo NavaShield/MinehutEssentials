@@ -1,6 +1,8 @@
 # MinehutEssentials
 
 A Client-Side fabric mod for making Minehut bearable.
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/yippeeangiee)
 ## Features
 
 | Feature                  | What it blocks                                                 | Screenshot                                                                                                                          |

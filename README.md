@@ -17,6 +17,7 @@ A Client-Side fabric mod for making Minehut bearable.
 
 
 ## Todo / Fixes
+- [ ] Fix bossbar showing when 1 second is remaining
 - [ ] Add intermediate skipping by automatically using the barrier item to get to the lobby or desired server
 
 ## Usage
